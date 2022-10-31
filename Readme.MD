@@ -18,9 +18,8 @@ Commands used for step 3 marked with -- (paths according to my installation:
     --start zoo : .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
     --start kafka : .\bin\windows\kafka-server-start.bat .\config\server.properties
     create a topic : >.\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic TestTopic
+    stopzoo keeper server : .\bin\windows\zookeeper-server-stop.bat
     stopkafka server : .\bin\windows\kafka-server-stop.bat
-    see
-    stopkafka zoo keeper server : .\bin\windows\zookeeper-server-stop.bat
     list_brokers : .\bin\windows\kafka-topics.bat --list --zookeeper localhost:2
 4) Start zookeeper (must see logs in cmd)
 5) Start kafka 
